@@ -1,0 +1,71 @@
+.contenedor{
+    /* background-color: aqua; */
+    background-image: url('./vegetales-puestos-izquierda-pizarra-negra.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(197, 119, 24);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.h1{
+    position: absolute;
+    font-size: 50px;
+    left: 5%;
+}
+.h4{
+    position: absolute;
+    bottom: 27%;
+    font-size: 30px;
+    width: 50%;
+    left: 7%;
+}
+.boton{
+    position: absolute;
+    bottom: 10%;
+    left: -2%;
+    font-size: 15px;
+}
+.sarten{
+    width: 200px;
+    height: 100px;
+    background-color: #FCA311;
+    color: #fff;
+    border: none;
+    border-radius: 0 50% 50% 50% / 50% 50% 50% 0;
+    position: relative;
+    overflow: hidden;
+}
+.sarten:hover{
+    cursor: pointer;
+    transform: rotate(-10deg) translateY(-1px);
+    transition: all 400ms ease;
+}
+.sarten::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateX(-50%);
+    border-radius: 50% 50% 0 0;
+    pointer-events: none;
+}
+.sarten::after{
+    content: '';
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transform: translateX(50%);
+  border-radius: 50% 50% 0 0;
+}

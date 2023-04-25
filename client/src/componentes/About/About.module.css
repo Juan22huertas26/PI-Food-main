@@ -1,0 +1,86 @@
+.yo{
+    width: 40%;
+    border-radius: 10px;
+}
+.carta{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(32, 29, 29, 0.7);
+    display: inline-block;
+    width: 40%;
+    border-radius: 10%;
+    color: white;
+}
+.link{
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 37%;
+    top: 25%;
+}
+.git{
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 37%;
+    top: 25%;
+}
+.api{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(32, 29, 29, 0.7);
+    width: 50%;
+    border-radius: 12px;
+    position: absolute;
+    left: 25%;
+    text-decoration: double;
+    color: white;
+}
+.li1{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(32, 29, 29, 0.7);
+    position: absolute;
+    display: inline;
+    left: 25%;
+    bottom: 17.5%;
+    height: 20%;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+}
+.nav img{
+    width: 100px;
+    height: 100px;
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    left: 1%;
+}
+.nav{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(236, 241, 234, 0.8);
+}
+.li2{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(32, 29, 29, 0.7);
+    position: absolute;
+    display: inline;
+    right: 25%;
+    bottom: 17.5%;
+    height: 20%;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+}
+.li3{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(32, 29, 29, 0.7);
+    position: absolute;
+    display: inline;
+    right: 45%;
+    bottom: 17.5%;
+    height: 20%;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+}

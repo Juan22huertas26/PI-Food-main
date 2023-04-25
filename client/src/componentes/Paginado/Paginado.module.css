@@ -1,0 +1,9 @@
+.selected {
+    background-color: rgb(61, 59, 55);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.notSelected {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: bisque;
+}
