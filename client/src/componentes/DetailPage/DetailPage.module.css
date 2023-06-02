@@ -7,7 +7,7 @@
     color:  rgba(255, 228, 196, 0.9);
     text-align: center;
     margin-top: 5%;
-    margin-left: 20%;
+    margin-left: 20%; 
     margin-right: 20%;
     text-shadow: 0 0 2px white;
     background-color: rgba(0, 0, 0, 0.6);
@@ -38,6 +38,7 @@
 .casa{
     /* background-color: azure; */
     position: absolute;
+    left: 3%;
     font-size: 3em;
     cursor: pointer;
     top: 19%;
@@ -45,7 +46,6 @@
     box-shadow: 0 0 15px bisque;
     /* margin-bottom: 5px; */
 }
-.casa 
 
 .back{
     background-color: rgba(121, 87, 68, 0.90);
